@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "doubly_list.h": "c",
+        "stdio.h": "c",
+        "errno.h": "c",
+        "string.h": "c",
+        "mempool.h": "c",
+        "typeinfo": "c",
+        "log.h": "c",
+        "stdlib.h": "c"
+    }
+}
