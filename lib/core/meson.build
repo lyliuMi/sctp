@@ -1,6 +1,13 @@
 libsctp_core_src = files(
     'doubly_list.c',
-    'log.c'
+    'log.c',
+    'l_epoll.c',
+    'l_fsm.c',
+    'l_hash.c',
+    'l_rbtree.c',
+    'l_thread.c',
+    'l_timer.c',
+    'pollbox.c'
 )
 
 libpthread = dependency('threads', required : true)
